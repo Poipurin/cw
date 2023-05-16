@@ -2,6 +2,6 @@ package main.java.sevenkyu;
 
 public class Square {
     public static boolean isSquare(int n) {
-        return true;
+        return Math.sqrt(n) % 1 == 0;
     }
 }
